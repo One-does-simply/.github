@@ -13,19 +13,21 @@ Each family is a self-contained monorepo: the specification, its
 renderers, the AI build helpers that author it, and the conformance
 scenarios that pin behavior across implementations.
 
-| Status      | Family                                                              | What it describes                                          |
-| ----------- | ------------------------------------------------------------------- | ---------------------------------------------------------- |
-| ✅ Active    | [**ods-pages**](https://github.com/One-does-simply/ods-pages)       | Page-based apps — forms, lists, charts, dashboards         |
-| 🔜 Planned  | `ods-chat`                                                          | Conversational agents that author and evolve specs         |
-| 🔜 Planned  | `ods-workflow`                                                      | Orchestration between spec-driven apps                     |
-| 🔜 Planned  | `ods-game`                                                          | Game-app specs + renderers                                 |
+| Status      | Family                                                           | What it describes                                                                                      |
+| ----------- | ---------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| ✅ Active    | [**ODS Pages**](https://github.com/One-does-simply/ods-pages)    | Data-driven apps — forms, lists, charts, dashboards. Two production renderers: Flutter + React.       |
+| 🔜 Planned  | **ODS Chat**                                                     | Chat and voice-driven apps built as conversational agents; shares data with ODS Pages apps.           |
+| 🔜 Planned  | **ODS Workflow**                                                 | Orchestration between spec-driven apps, plus simple automations.                                       |
+| 🔜 Planned  | **ODS Game**                                                     | Vibe-code games in minutes — education-focused, teaches software development + vibe-coding practices. |
 
 ## Start here
 
-The first family to ship is **ods-pages**. It has a React renderer
+The first family to ship is **ODS Pages**. It has a React renderer
 (PocketBase backend) and a Flutter renderer (local SQLite) that
 render the same spec. Head to
-[github.com/One-does-simply/ods-pages](https://github.com/One-does-simply/ods-pages).
+[github.com/One-does-simply/ods-pages](https://github.com/One-does-simply/ods-pages)
+— or read the marketing pitch at
+[one-does-simply.github.io/ods-pages/Specification/](https://one-does-simply.github.io/ods-pages/Specification/).
 
 ## Philosophy
 
@@ -41,7 +43,7 @@ render the same spec. Head to
 ## Status
 
 Pre-1.0. Spec and framework APIs are still evolving across all
-families. Interested? Star a repo; the `ods-pages` README has a
+families. Interested? Star a repo; the ODS Pages README has a
 roadmap and contribution pointers.
 
 ## License
